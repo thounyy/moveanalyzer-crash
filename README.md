@@ -1,6 +1,7 @@
 # move-analyzer crash
 
 When adding `use std::vector;`, move-analyzer shows an error before I add the comma but it never goes away.
+
 ![Screenshot from 2023-11-15 10-33-22](https://github.com/thounyy/moveanalyzer-crash/assets/92447129/8c22bee1-8867-4972-9939-48b19a53e56c)
 
 The move-analyzer server crashes and returns `symbolicator message error: RecvError` in an infinite loop.
